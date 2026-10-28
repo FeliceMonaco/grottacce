@@ -1,0 +1,14 @@
+/* Custom styling fixes */
+@keyframes pulseSubtle {
+    0%, 100% { transform: scale(1.05); }
+    50% { transform: scale(1.08); }
+}
+
+.animate-pulse-subtle {
+    animation: pulseSubtle 12s infinite ease-in-out;
+}
+
+.menu-btn.active {
+    background-color: #1C3127 !important;
+    color: #ffffff !important;
+}
